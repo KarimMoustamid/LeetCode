@@ -1,0 +1,15 @@
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Sandbox
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Sandbox.deps.json
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Sandbox.runtimeconfig.json
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Sandbox.dll
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Sandbox.pdb
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.AssemblyInfoInputs.cache
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.AssemblyInfo.cs
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.csproj.CoreCompileInputs.cache
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.sourcelink.json
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.dll
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/refint/Sandbox.dll
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.pdb
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.genruntimeconfig.cache
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/ref/Sandbox.dll

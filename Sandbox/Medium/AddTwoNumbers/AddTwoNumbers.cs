@@ -1,16 +1,14 @@
 namespace Sandbox.Medium.AddTwoNumbers
 {
-    /**
-    * Definition for singly-linked list.
-    * struct ListNode {
-    *     int val;
-    *     ListNode *next;
-    *     ListNode() : val(0), next(nullptr) {}
-    *     ListNode(int x) : val(x), next(nullptr) {}
-    *     ListNode(int x, ListNode *next) : val(x), next(next) {}
-    * };
-     */
     public class AddTwoNumbers
     {
+        public ListNode l1 { get; set; }
+        public ListNode l2 { get; set; }
+
+        public AddTwoNumbers(ListNode l1, ListNode l2)
+        {
+            this.l1 = l1;
+            this.l2 = l2;
+        }
     }
 }
