@@ -10,5 +10,28 @@ namespace Sandbox.Medium.AddTwoNumbers
             this.l1 = l1;
             this.l2 = l2;
         }
+
+
+
+        #region Log
+
+        public static void PrintlinkedList(ListNode linkedList)
+        {
+            var head = linkedList;
+
+            do
+            {
+                Print(head);
+                head = head.next;
+            } while (head.next != null);
+        }
+
+        private static void Print(ListNode lastNode)
+        {
+            Console.WriteLine(lastNode.val);
+        }
+
+        #endregion
+
     }
 }
