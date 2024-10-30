@@ -10,6 +10,6 @@ solution.ResultLinkedList();
 
 
 
-// AddTwoNumbers.PrintLinkedListValues(l1);
+// AddTwoNumbers.PrintLinkedListValues(L1);
 // Console.WriteLine();
-// AddTwoNumbers.PrintLinkedListValues(l2);
+// AddTwoNumbers.PrintLinkedListValues(L2);

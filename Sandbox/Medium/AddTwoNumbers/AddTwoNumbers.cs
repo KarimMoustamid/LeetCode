@@ -2,20 +2,22 @@ namespace Sandbox.Medium.AddTwoNumbers
 {
     public class AddTwoNumbers
     {
-        public ListNode l1 { get; set; }
-        public ListNode l2 { get; set; }
+
+
+        public ListNode L1;
+        public ListNode L2;
 
         public AddTwoNumbers(ListNode l1, ListNode l2)
         {
-            this.l1 = l1;
-            this.l2 = l2;
+            this.L1 = l1;
+            this.L2 = l2;
         }
 
 
         public void ResultLinkedList()
         {
-            var l1Pointer = l1;
-            var l2Pointer = l2;
+            var l1Pointer = L1;
+            var l2Pointer = L2;
 
             var resultListNode = new ListNode();
             while (l1Pointer.next != null && l2Pointer.next != null)
