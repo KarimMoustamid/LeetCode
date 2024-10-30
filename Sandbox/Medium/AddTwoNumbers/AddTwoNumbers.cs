@@ -2,8 +2,6 @@ namespace Sandbox.Medium.AddTwoNumbers
 {
     public class AddTwoNumbers
     {
-
-
         public ListNode L1;
         public ListNode L2;
 
@@ -20,9 +18,29 @@ namespace Sandbox.Medium.AddTwoNumbers
             var l2Pointer = L2;
 
             var resultListNode = new ListNode();
+
+            // Add logic to carry the value if its > to 9 :
+            var carry = false;
+            Func<int, int, int> sumDigit = (var1, var2) => (var1 + var2) > 9 ? (var1 + var2) % 10 : var1 + var2;
+
+
             while (l1Pointer.next != null && l2Pointer.next != null)
             {
-                resultListNode.val = l1Pointer.val + l2Pointer.val;
+                if (l1Pointer.Val + l2Pointer.Val > 9)
+                {
+                    carry = true;
+                }
+
+                if (carry)
+                {
+                    resultListNode.Val = sumDigit(l1Pointer.Val, l2Pointer.Val) + 1;
+                    carry = false;
+                }
+                else
+                {
+                    resultListNode.Val = sumDigit(l1Pointer.Val, l2Pointer.Val);
+                }
+
                 Print(resultListNode);
 
                 l1Pointer = l1Pointer.next;
