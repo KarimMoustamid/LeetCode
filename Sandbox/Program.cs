@@ -1,15 +1,11 @@
-﻿using Sandbox.Medium.AddTwoNumbers;
-
-// Exemple :
-ListNode l1 = new ListNode(2, new ListNode(4, new ListNode(3)));
-
-ListNode l2 = new ListNode(5, new ListNode(6, new ListNode(4)));
-
-AddTwoNumbers solution = new AddTwoNumbers(l1, l2);
-solution.ResultLinkedList();
+﻿using Sandbox;
 
 
+string[] namesInFindingNemoMovie = new[] {"Marlin", "Nemo", "Dory", "Gill", "Bloat", "Peach", "Gurgle", "Bubbles", "Deb", "Jacques", "Nigel", "Bruce", "Anchor", "Chum", "Crush", "Squirt"};
 
-// AddTwoNumbers.PrintLinkedListValues(L1);
-// Console.WriteLine();
-// AddTwoNumbers.PrintLinkedListValues(L2);
+
+string[] nemo100 = Enumerable.Repeat("nemo", 1000).ToArray();
+
+BigO o = new BigO();
+
+o.FindNemo(nemo100);
