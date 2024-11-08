@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Easy\" />
+      <Folder Include="DataStructures\" />
     </ItemGroup>
 
 </Project>
