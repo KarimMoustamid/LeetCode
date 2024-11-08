@@ -39,7 +39,14 @@ namespace Sandbox
             // = O(3) + O(n) + O(n) + O(n) + O(n)
             // = O(3 + 4n)
             // = O(n)
+        }
 
+        public void booo(string? heSaid)
+        {
+            foreach (var c in heSaid)
+            {
+                Console.WriteLine("booooo");
+            }
         }
     }
 }
