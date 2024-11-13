@@ -13,3 +13,10 @@
 /Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.pdb
 /Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/ref/Sandbox.dll
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Top_Interview_Questions.deps.json
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Top_Interview_Questions.runtimeconfig.json
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Top_Interview_Questions
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Top_Interview_Questions.dll
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/bin/Debug/net8.0/Top_Interview_Questions.pdb
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.csproj.AssemblyReference.cache
+/Users/karimmoustamid/Desktop/LeetCode/Sandbox/obj/Debug/net8.0/Sandbox.csproj.Up2Date

@@ -12,4 +12,8 @@
       <Folder Include="DataStructures\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Top_Interview_Questions\Top_Interview_Questions.csproj" />
+    </ItemGroup>
+
 </Project>

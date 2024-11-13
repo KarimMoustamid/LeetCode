@@ -1,15 +1,14 @@
-﻿using Sandbox;
+﻿using Top_Interview_Questions.Array_Strings.Sum_II;
 
 
-string[] namesInFindingNemoMovie = new[] {"Marlin", "Nemo", "Dory", "Gill", "Bloat", "Peach", "Gurgle", "Bubbles", "Deb", "Jacques", "Nigel", "Bruce", "Anchor", "Chum", "Crush", "Squirt"};
+int n = 10;
+Four_Sum_II solution = new Four_Sum_II(n);
 
+int[] nums1 = new int[n];
+int[] nums2 = new int[n];
+int[] nums3 = new int[n];
+int[] nums4 = new int[n];
 
-string[] nemo100 = Enumerable.Repeat("nemo", 1000).ToArray();
+nums1 = [1, 2]; nums2 = [-2, -1]; nums3 = [-1, 2]; nums4 = [0, 2];
 
-BigO bigO = new BigO();
-
-// bigO.FindNemo(nemo100);
-
-
-// Space Complexity :
-bigO.booo(Enumerable.Repeat("Booo", 100).ToString()); // O(1)
+Console.WriteLine(solution.FourSumCount(nums1, nums2, nums3, nums4));
