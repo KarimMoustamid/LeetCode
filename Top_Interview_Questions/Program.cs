@@ -1,9 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using Top_Interview_Questions.Array_Strings.Game_of_Life;
 
-using Top_Interview_Questions.Array_Strings.Container_With_Most_Water;
-int[] height = {1, 8, 6, 2, 5, 4, 8, 3, 7};
-ContainerWithMostWater solution = new ContainerWithMostWater();
+int m = 3;
+int n = 3;
 
-int maxWater = solution.MaxArea(height);
+int[][] board =
+{
+    new int[] {1, 2, 3},
+    new int[] {4, 5, 6},
+    new int[] {7, 8, 9}
+};
 
-Console.WriteLine("The maximum amount of water the container can store is: " + maxWater);
+GameOfLife solution = new GameOfLife();
+
+solution.NextStage(board);
