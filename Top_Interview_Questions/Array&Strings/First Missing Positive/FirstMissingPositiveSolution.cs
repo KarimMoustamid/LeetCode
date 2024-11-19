@@ -6,6 +6,8 @@ namespace Top_Interview_Questions.Array_Strings.First_Missing_Positive
         {
             int n = nums.Length;
 
+            PrintArray(nums);
+
             // Step 1: Clean the data
             for (int i = 0; i < n; i++)
             {
@@ -14,6 +16,9 @@ namespace Top_Interview_Questions.Array_Strings.First_Missing_Positive
                     nums[i] = n + 1; // Replace irrelevant numbers
                 }
             }
+
+            PrintArray(nums);
+
 
             // Step 2: Use indices as markers
             for (int i = 0; i < n; i++)
@@ -27,7 +32,11 @@ namespace Top_Interview_Questions.Array_Strings.First_Missing_Positive
                         nums[index] = -Math.Abs(nums[index]); // Mark the index as negative
                     }
                 }
+
+                // PrintArray(nums);
             }
+
+            PrintArray(nums);
 
             // Step 3: Find the first unmarked index
             for (int i = 0; i < n; i++)
@@ -38,8 +47,16 @@ namespace Top_Interview_Questions.Array_Strings.First_Missing_Positive
                 }
             }
 
+            PrintArray(nums);
+
             // If all indices are marked, return n + 1
             return n + 1;
+        }
+
+
+        public void PrintArray(int[] nums)
+        {
+            Console.WriteLine(string.Join(", ", nums));
         }
     }
 }
