@@ -1,14 +1,9 @@
-﻿using Top_Interview_Questions.Array_Strings.Sum_II;
+﻿using Top_Interview_Questions.Easy.Remove_Duplicates_from_Sorted_Array;
 
+Console.WriteLine("Sandbox");
 
-int n = 10;
-Four_Sum_II solution = new Four_Sum_II(n);
+int[] nums = new int[] { 0,0,1,1,1,2,2,3,3,4 };
 
-int[] nums1 = new int[n];
-int[] nums2 = new int[n];
-int[] nums3 = new int[n];
-int[] nums4 = new int[n];
+Solution solution = new Solution();
 
-nums1 = [1, 2]; nums2 = [-2, -1]; nums3 = [-1, 2]; nums4 = [0, 2];
-
-Console.WriteLine(solution.FourSumCount(nums1, nums2, nums3, nums4));
+int k = solution.RemoveDuplicates(nums);
