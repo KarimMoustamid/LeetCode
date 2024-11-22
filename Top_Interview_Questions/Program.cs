@@ -4,3 +4,8 @@ int[] prices = { 100, 98, 102, 95, 110, 120, 105 };
 
 Solution solution = new Solution();
 int maxProfit = solution.MaxProfit(prices);
+
+
+Console.BackgroundColor = ConsoleColor.Green;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.WriteLine($"he maximum profit you can achieve is {maxProfit}");
