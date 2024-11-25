@@ -1,7 +1,13 @@
-﻿using Top_Interview_Questions.Easy.Best_Time_to_Buy_and_Sell_Stock_II;
+﻿using Top_Interview_Questions.Easy.Rotate_Array;
 
 
-Solution solution = new Solution();
+int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+
+
+Solution.Rotate(array, 2);
+
+
+
 
 
 Console.BackgroundColor = ConsoleColor.Green;
