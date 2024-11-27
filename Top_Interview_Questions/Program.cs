@@ -1,6 +1,6 @@
-﻿using Top_Interview_Questions.Easy.Single_Number;
+﻿using Top_Interview_Questions.Easy.Intersection_of_Two_Arrays_II;
 
+int[] num1 = [1, 2, 2, 1];
+int[] num2 = [2, 2];
 
-int[] arr = {4, 1, 2, 1, 2};
-
-Console.WriteLine(Solution.SingleNumber(arr));
+Solution.Intersect(num1, num2);
