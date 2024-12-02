@@ -20,11 +20,11 @@ namespace Top_Interview_Questions.Helpers
             }
         }
 
-        public static void Array(int[] array, string message = "")
+        public static void Array<T>(T[] array, string message = "")
         {
             if (array == null)
             {
-                Console.WriteLine("The resulting Intersection Array is null.");
+                Console.WriteLine("The resulting Array is null.");
                 return;
             }
 

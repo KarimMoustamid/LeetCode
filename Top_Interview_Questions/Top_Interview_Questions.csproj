@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <Folder Include="Easy\Array\InProgress\" />
+      <Folder Include="Easy\Strings\Resolved\" />
       <Folder Include="Hard\" />
     </ItemGroup>
 
