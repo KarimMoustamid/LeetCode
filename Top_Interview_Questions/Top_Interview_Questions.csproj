@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Easy\Resolved\" />
+      <Folder Include="Easy\Array\InProgress\" />
       <Folder Include="Hard\" />
     </ItemGroup>
 
