@@ -105,9 +105,33 @@ casting:
 
 - <span style="color:#fbbf24; font-weight:bold;">Explicit Casting</span> (Forced Casting)
     - Explicit Casting is required when there is a possibility of data loss or when converting from a larger data type
-      to a smaller data type (e.g., double to int) or between incompatible types. In C#, this is done using casting operators like <span style="color:#dc2626; font-weight:bold;">(type)</span> .
+      to a smaller data type (e.g., double to int) or between incompatible types. In C#, this is done using casting
+      operators like <span style="color:#dc2626; font-weight:bold;">(type)</span> .
 
-# <span style="color:#818cf8;"></span>
+# <span style="color:#818cf8;">Array & ArrayList</span>
+
+- <span style="color:#fbbf24; font-weight:bold;">Array</span> : Strongly types , size fixed
+
+- <span style="color:#fbbf24; font-weight:bold;">ArrayList</span>  : flexible and not Strongly types
+
+# <span style="color:#818cf8;">Generic Collection</span>
+
+- <span style="color:#fbbf24; font-weight:bold;">Generics Collections</span> are Strongly types and flexible
+
+# <span style="color:#818cf8;">Threads</span>
+
+A thread is the smallest unit of a process that can be scheduled and executed independently. A thread exists within a
+process, and every process has at least one thread, often called the main thread.
+
+Threads are used to achieve <span style="color:#fbbf24; font-weight:bold;">concurrent execution</span> in a program.
+
+
+<span style="color:#16a34a; font-weight:bold;">Threads are often used along with asynchronous programming for handling
+non-blocking operations</span>
+.
+
+
+---------------------
 
 # <span style="color:#818cf8;"></span>
 
