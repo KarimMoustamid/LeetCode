@@ -94,6 +94,19 @@ object boxedNum = 42;      // Boxing: Value type converted to reference type (ob
 int num = (int)boxedNum;   // Unboxing: Object cast back to value type
 ```
 
+# <span style="color:#818cf8;">Casting, Implicit casting , Explicit Casting</span>
+
+Casting refers to the process of converting a value from one data type to another. In C#, there are two primary types of
+casting:
+
+- <span style="color:#fbbf24; font-weight:bold;">Implicit Casting</span> (Safe Casting)
+    - mplicit Casting happens automatically by the compiler when there is no risk of losing data. when converting a
+      smaller data type to a larger data type (e.g., int to long, float to double).
+
+- <span style="color:#fbbf24; font-weight:bold;">Explicit Casting</span> (Forced Casting)
+    - Explicit Casting is required when there is a possibility of data loss or when converting from a larger data type
+      to a smaller data type (e.g., double to int) or between incompatible types. In C#, this is done using casting operators like <span style="color:#dc2626; font-weight:bold;">(type)</span> .
+
 # <span style="color:#818cf8;"></span>
 
 <span style="color:#fbbf24; font-weight:bold;"></span>
