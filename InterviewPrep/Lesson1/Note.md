@@ -46,3 +46,13 @@ mechanism</span>
 provided by the Common Language Runtime (CLR) in
 .NET. It is responsible for managing the allocation and deallocation of memory for objects in a .NET application while
 ensuring efficient memory use and preventing memory leaks.
+
+# <span style="color:#818cf8;">What is the CTS</span>
+The <span style="color:#fbbf24; font-weight:bold;">Common Type System</span> (CTS) is a foundational component of the .NET. It is primarily responsible for defining and enforcing how data types are declared, used, and managed in the runtime environment.
+
+
+
+
+
+# <span style="color:#818cf8;"></span>
+<span style="color:#fbbf24; font-weight:bold;"></span>
