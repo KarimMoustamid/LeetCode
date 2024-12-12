@@ -48,16 +48,34 @@ provided by the Common Language Runtime (CLR) in
 ensuring efficient memory use and preventing memory leaks.
 
 # <span style="color:#818cf8;">What is the CTS</span>
-The <span style="color:#fbbf24; font-weight:bold;">Common Type System</span> (CTS) is a foundational component of the .NET. It is primarily responsible for defining and enforcing how data types are declared, used, and managed in the runtime environment.
+
+The <span style="color:#fbbf24; font-weight:bold;">Common Type System</span> (CTS) is a foundational component of the
+.NET. It is primarily responsible for defining and enforcing how data types are declared, used, and managed in the
+runtime environment.
 
 # <span style="color:#818cf8;">What is CLS</span>
-The <span style="color:#fbbf24; font-weight:bold;">Common Language Specification</span> (CLS) is a component of the .NET. It defines a subset of rules that sets the minimum standard for features and data types that all .NET-compliant languages need to follow in order to achieve interoperability. 
 
+The <span style="color:#fbbf24; font-weight:bold;">Common Language Specification</span> (CLS) is a component of the
+.NET. It defines a subset of rules that sets the minimum standard for features and data types that all .NET-compliant
+languages need to follow in order to achieve interoperability.
 
 # <span style="color:#818cf8;">What are Stack and Heap</span>
-In computer programming, particularly in .NET and other modern programming environments, the Stack and Heap are two types of memory areas used for storing and managing data during application runtime.
 
+In computer programming, particularly in .NET and other modern programming environments, the Stack and Heap are two
+types of memory areas used for storing and managing data during application runtime.
 
+# <span style="color:#818cf8;">What are Value Types and Reference Types</span>
+
+In .NET (including C#), <span style="color:#fbbf24; font-weight:bold;">Value Types and Reference Types</span> are the
+two primary categories of data types.
+
+- <span style="color:#16a34a; font-weight:bold;">Primitive and Struct Types:</span>
+  - int, float, double, bool, char, etc
+  - struct types and enum types.
+
+- <span style="color:#16a34a; font-weight:bold;">Reference Types :</span>
+  - A Reference Type holds a reference (or memory address) to the actual data stored in heap memory.
 
 # <span style="color:#818cf8;"></span>
+
 <span style="color:#fbbf24; font-weight:bold;"></span>
