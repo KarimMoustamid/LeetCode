@@ -125,15 +125,35 @@ process, and every process has at least one thread, often called the main thread
 
 Threads are used to achieve <span style="color:#fbbf24; font-weight:bold;">concurrent execution</span> in a program.
 
-
 <span style="color:#16a34a; font-weight:bold;">Threads are often used along with asynchronous programming for handling
 non-blocking operations</span>.
 
-
 # <span style="color:#818cf8;">Thread Vs Task</span>
+
+Task are an abstraction for managing asynchronous work over threads. they actually use parallel processing
 
 - Use Thread if you need direct control over thread operations.
 - Prefer Task for higher-level asynchronous programming.
+
+# <span style="color:#818cf8;">Exceptions</span>
+
+In C#, exceptions are handled using <span style="color:#fbbf24; font-weight:bold;">try, catch, and optionally
+finally</span> blocks
+
+```csharp
+try
+{
+    // Code that might throw an exception
+}
+catch (ExceptionType ex)
+{
+    // Code to handle that exception
+}
+finally
+{
+    // Code that always executes (optional)
+}
+```
 
 
 
