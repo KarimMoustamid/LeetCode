@@ -127,8 +127,14 @@ Threads are used to achieve <span style="color:#fbbf24; font-weight:bold;">concu
 
 
 <span style="color:#16a34a; font-weight:bold;">Threads are often used along with asynchronous programming for handling
-non-blocking operations</span>
-.
+non-blocking operations</span>.
+
+
+# <span style="color:#818cf8;">Thread Vs Task</span>
+
+- Use Thread if you need direct control over thread operations.
+- Prefer Task for higher-level asynchronous programming.
+
 
 
 ---------------------
