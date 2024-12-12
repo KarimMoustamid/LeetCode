@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Top_Interview_Questions", "Top_Interview_Questions\Top_Interview_Questions.csproj", "{E4048857-71A5-4213-ACB4-41A9B08D080A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPrep", "InterviewPrep\InterviewPrep.csproj", "{AEFEDEF8-6CD4-4DC3-99A2-71643057251F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{E4048857-71A5-4213-ACB4-41A9B08D080A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4048857-71A5-4213-ACB4-41A9B08D080A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4048857-71A5-4213-ACB4-41A9B08D080A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFEDEF8-6CD4-4DC3-99A2-71643057251F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFEDEF8-6CD4-4DC3-99A2-71643057251F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFEDEF8-6CD4-4DC3-99A2-71643057251F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFEDEF8-6CD4-4DC3-99A2-71643057251F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
