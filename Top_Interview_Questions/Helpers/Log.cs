@@ -20,6 +20,24 @@ namespace Top_Interview_Questions.Helpers
             }
         }
 
+        public static void LogMessageWithColor(string message, ConsoleColor BackgroundColor = ConsoleColor.DarkCyan, ConsoleColor ForegroundColor = ConsoleColor.White)
+        {
+            var originalBackgroundColor = Console.BackgroundColor;
+            var originalForegroundColor = Console.ForegroundColor;
+
+            try
+            {
+                Console.BackgroundColor = BackgroundColor;
+                Console.ForegroundColor = ForegroundColor;
+                Console.WriteLine(message);
+            }
+            finally
+            {
+                Console.BackgroundColor = originalBackgroundColor;
+                Console.ForegroundColor = originalForegroundColor;
+            }
+        }
+
         public static void Array<T>(T[] array, string message = "")
         {
             if (array == null)

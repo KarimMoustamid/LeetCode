@@ -13,3 +13,10 @@
 /Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/Debug/net8.0/InterviewPrep.pdb
 /Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/Debug/net8.0/InterviewPrep.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/Debug/net8.0/ref/InterviewPrep.dll
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/bin/Debug/net8.0/Top_Interview_Questions.deps.json
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/bin/Debug/net8.0/Top_Interview_Questions.runtimeconfig.json
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/bin/Debug/net8.0/Top_Interview_Questions
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/bin/Debug/net8.0/Top_Interview_Questions.dll
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/bin/Debug/net8.0/Top_Interview_Questions.pdb
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/Debug/net8.0/InterviewPrep.csproj.AssemblyReference.cache
+/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/Debug/net8.0/Intervie.0CEB3070.Up2Date
