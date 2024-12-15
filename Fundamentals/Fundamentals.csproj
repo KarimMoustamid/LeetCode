@@ -8,4 +8,8 @@
         <RootNamespace>Fundamentals</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Lesson 41\" />
+    </ItemGroup>
+
 </Project>
