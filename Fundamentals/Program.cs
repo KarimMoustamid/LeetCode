@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Fundamentals.Lesson_41;
+using Fundamentals;
 
-Access_Modifiers.DisplayAccessModifiers();
+EnumsDemo.DemoEnums();
