@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1874a452-273f-439d-95cb-4ff5966ef09a" name="Changes" comment="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup.">
+    <list default="true" id="1874a452-273f-439d-95cb-4ff5966ef09a" name="Changes" comment="Enhance type casting examples and clean up code structure&#10;&#10;Added detailed examples for implicit, explicit, and reference type casting in `TypeCasting.cs`, along with Convert, Parse, and TryParse methods. Removed redundant code in `Program.cs` to streamline functionality. Updated project configuration to improve organization and compatibility with .NET 8.0.">
+      <change afterPath="$PROJECT_DIR$/Fandamentals/Lesson 33/FormatingStrings.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fandamentals/Lesson 32/TypeCasting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fandamentals/Lesson 32/TypeCasting.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fandamentals/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fandamentals/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterviewPrep/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterviewPrep/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734220376483</updated>
       <workItem from="1734220377591" duration="39000" />
-      <workItem from="1734277866361" duration="5392000" />
+      <workItem from="1734277866361" duration="7760000" />
     </task>
     <task id="LOCAL-00001" summary="Rename and restructure project files for consistency&#10;&#10;Renamed &quot;Top_Interview_Questions&quot; to &quot;LeetCode&quot; and updated related paths, namespaces, and references. Deleted unnecessary files and added new configuration files to align with the updated project structure. Cleaned up unused .idea files to improve project organization.">
       <option name="closed" value="true" />
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734285331268</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Enhance type casting examples and clean up code structure&#10;&#10;Added detailed examples for implicit, explicit, and reference type casting in `TypeCasting.cs`, along with Convert, Parse, and TryParse methods. Removed redundant code in `Program.cs` to streamline functionality. Updated project configuration to improve organization and compatibility with .NET 8.0.">
+      <option name="closed" value="true" />
+      <created>1734286304377</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734286304377</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +177,7 @@
     <MESSAGE value="Rename and restructure project files for consistency&#10;&#10;Renamed &quot;Top_Interview_Questions&quot; to &quot;LeetCode&quot; and updated related paths, namespaces, and references. Deleted unnecessary files and added new configuration files to align with the updated project structure. Cleaned up unused .idea files to improve project organization." />
     <MESSAGE value="Add IDE and build tool generated files to the repository&#10;&#10;This commit includes various IDE configuration files, Rider-specific settings, and auto-generated build output files related to project compilation. These files enable proper environment setup and build management for the project." />
     <MESSAGE value="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup." />
+    <MESSAGE value="Enhance type casting examples and clean up code structure&#10;&#10;Added detailed examples for implicit, explicit, and reference type casting in `TypeCasting.cs`, along with Convert, Parse, and TryParse methods. Removed redundant code in `Program.cs` to streamline functionality. Updated project configuration to improve organization and compatibility with .NET 8.0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance type casting examples and clean up code structure&#10;&#10;Added detailed examples for implicit, explicit, and reference type casting in `TypeCasting.cs`, along with Convert, Parse, and TryParse methods. Removed redundant code in `Program.cs` to streamline functionality. Updated project configuration to improve organization and compatibility with .NET 8.0." />
   </component>
 </project>
