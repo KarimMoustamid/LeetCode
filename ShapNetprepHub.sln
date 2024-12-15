@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewPrep", "InterviewPrep\InterviewPrep.csproj", "{BBABF343-4962-40CD-9C85-1E5085ED1C45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fandamentals", "Fandamentals\Fandamentals.csproj", "{CCCE8337-5106-4EF6-A099-EED9F45E8510}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fundamentals", "Fundamentals\Fundamentals.csproj", "{CCCE8337-5106-4EF6-A099-EED9F45E8510}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/Fandamentals.csproj",
-      "projectName": "Fandamentals",
-      "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/Fandamentals.csproj",
+      "projectUniqueName": "/Users/karimmoustamid/Desktop/LeetCode/Fundamentals/Fundamentals.csproj",
+      "projectName": "Fundamentals",
+      "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/Fundamentals/Fundamentals.csproj",
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
-      "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/",
+      "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/Fundamentals/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
