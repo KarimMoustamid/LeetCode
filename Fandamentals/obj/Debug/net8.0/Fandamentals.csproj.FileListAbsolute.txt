@@ -1,0 +1,15 @@
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/bin/Debug/net8.0/Fandamentals
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/bin/Debug/net8.0/Fandamentals.deps.json
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/bin/Debug/net8.0/Fandamentals.runtimeconfig.json
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/bin/Debug/net8.0/Fandamentals.dll
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/bin/Debug/net8.0/Fandamentals.pdb
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.AssemblyInfoInputs.cache
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.AssemblyInfo.cs
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.csproj.CoreCompileInputs.cache
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.sourcelink.json
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.dll
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/refint/Fandamentals.dll
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.pdb
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/Fandamentals.genruntimeconfig.cache
+/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/Debug/net8.0/ref/Fandamentals.dll
