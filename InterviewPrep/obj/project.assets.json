@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Top_Interview_Questions/1.0.0": {
+      "LeetCode/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Top_Interview_Questions.dll": {}
+          "bin/placeholder/LeetCode.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Top_Interview_Questions.dll": {}
+          "bin/placeholder/LeetCode.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Top_Interview_Questions/1.0.0": {
+    "LeetCode/1.0.0": {
       "type": "project",
-      "path": "../Top_Interview_Questions/Top_Interview_Questions.csproj",
-      "msbuildProject": "../Top_Interview_Questions/Top_Interview_Questions.csproj"
+      "path": "../LeetCode/LeetCode.csproj",
+      "msbuildProject": "../LeetCode/LeetCode.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Top_Interview_Questions >= 1.0.0"
+      "LeetCode >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -38,6 +38,7 @@
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
       "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
       ],
@@ -45,14 +46,15 @@
         "net8.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/karimmoustamid/Desktop/LeetCode/Top_Interview_Questions/Top_Interview_Questions.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/Top_Interview_Questions/Top_Interview_Questions.csproj"
+            "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/LeetCode.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/LeetCode.csproj"
             }
           }
         }
@@ -87,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

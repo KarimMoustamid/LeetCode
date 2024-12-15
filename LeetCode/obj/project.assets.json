@@ -13,12 +13,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karimmoustamid/Desktop/LeetCode/Top_Interview_Questions/Top_Interview_Questions.csproj",
-      "projectName": "Top_Interview_Questions",
-      "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/Top_Interview_Questions/Top_Interview_Questions.csproj",
+      "projectUniqueName": "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/LeetCode.csproj",
+      "projectName": "LeetCode",
+      "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/LeetCode.csproj",
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
-      "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/Top_Interview_Questions/obj/",
+      "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/obj/",
       "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
         "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
       ],
@@ -26,6 +27,7 @@
         "net8.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -64,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

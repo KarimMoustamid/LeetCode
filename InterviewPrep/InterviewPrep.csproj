@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Top_Interview_Questions\Top_Interview_Questions.csproj" />
+      <ProjectReference Include="..\LeetCode\LeetCode.csproj" />
     </ItemGroup>
 
 </Project>

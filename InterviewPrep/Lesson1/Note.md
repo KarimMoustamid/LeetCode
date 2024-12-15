@@ -153,15 +153,185 @@ finally
 {
     // Code that always executes (optional)
 }
+
 ```
 
+<h3 style="background-color: #881337; color: white;display: inline-block;">Garbage Collector (GC)</h3>
 
+The Garbage Collector (GC) is an <span style="background-color: #eab308; color: black;"> automatic memory management system provided by the Common Language Runtime (CLR)</span> in
+.NET. It ensures efficient memory usage by managing the allocation and deallocation of objects in memory, helping to
+prevent memory leaks and improve application performance.
 
----------------------
+---
 
-# <span style="color:#818cf8;"></span>
+<h4 style="background-color: #be185d; color: white;display: inline-block;">How the Garbage Collector Works</h4>
 
-<span style="color:#fbbf24; font-weight:bold;"></span>
+1. **Allocation:**  
+   When a new object is created in a .NET application, the memory required for that object is allocated on the managed
+   heap.
+
+2. **Mark-and-Sweep Approach:**  
+   The GC identifies which objects are still in use and reclaims the memory used by objects that are no longer reachable
+   from the application.
+
+3. **Generational Model:**  
+   The GC uses a generational model to optimize memory management. There are three generations:
+
+  - Generation 0: Newly allocated objects.
+  - Generation 1: Objects promoted from Generation 0 (usually because they survived GC cycles).
+  - Generation 2: Long-lived objects (those that have survived multiple GC cycles).
+
+   <span style="background-color: #16a34a; color: black;">Objects in higher generations are less frequently collected,
+   reducing performance overhead.</span>
+
+4. **Compaction:**  
+   After reclaiming memory, the GC may compact the heap to ensure that used memory is contiguous, which improves
+   allocation performance for new objects.
+
+---
+
+<h4 style="background-color: #be185d; color: white;display: inline-block;">Key Features of Garbage Collector</h4>
+
+- <span style="background-color: #16a34a; color: black;">Automatic Memory Management:</span> Developers don’t need to
+  manually allocate or free memory, as the GC handles this automatically.
+
+- <span style="background-color: #16a34a; color: black;">Optimization:</span> The GC optimizes memory usage and
+  minimizes the application's working set.
+
+- <span style="background-color: #16a34a; color: black;">Concurrency:</span> GC runs independently of the application
+  code and works on a separate thread to minimize interruptions to the application.
+
+<br>
+
+---
+
+<h4 style="background-color: #be185d; color: white;display: inline-block;">When Does the GC Run?</h4>
+
+The Garbage Collector runs automatically when:
+
+1. There is not enough memory for an allocation.
+2. The GC determines that running a collection would improve memory usage.
+3. The application is explicitly instructed to run the GC by calling `GC.Collect()` (though this is not recommended in
+   most cases).
+
+<br>
+
+---
+<h3 style="background-color: #881337; color: white;display: inline-block;">Delegates in C#</h3>
+
+In C#, a <span style="background-color: #16a34a; color: black;">delegate</span> is a type that <span style="background-color: #eab308; color: black;"> represents references
+to methods </span> with a specific parameter list and return type. Delegates are similar to function pointers in C++ but are
+type-safe and object-oriented.
+
+<h4 style="background-color: #be185d; color: white;display: inline-block;">Key Features of Delegates</h4>
+
+- <span style="background-color: #16a34a; color: black;">Type-Safe:</span> Delegates ensure that only methods with the
+  correct signature can be assigned to them.
+- <span style="background-color: #16a34a; color: black;">Object-Oriented:</span> Delegates are objects and derive from
+  the `System.Delegate` class.
+- <span style="background-color: #eab308; color: black;"> Delegates can be used to pass methods as parameters and enable callback functionality.</span>
+
+<h4 style="background-color: #be185d; color: white;display: inline-block;">Declaring and Using a Delegate</h4>
+
+Below is an example of defining, instantiating, and using a delegate in C#:
 
 ```csharp
+using System;
+
+// Define a delegate
+delegate int MathOperation(int a, int b);
+
+class Program
+{
+    static void Main()
+    {
+        // Assign methods to the delegate
+        MathOperation addition = Add;
+        MathOperation multiplication = Multiply;
+
+        // Invoke the delegate
+        Console.WriteLine($"Addition Result: {addition(10, 5)}");        // Output: 15
+        Console.WriteLine($"Multiplication Result: {multiplication(10, 5)}");  // Output: 50
+    }
+
+    // Methods matching the delegate signature
+    static int Add(int x, int y) => x + y;
+    static int Multiply(int x, int y) => x * y;
+}
+```
+
+<h4 style="background-color: #be185d; color: white;display: inline-block;">Multicasting with Delegates</h4>
+
+Delegates in C# support multicasting, meaning they can reference multiple methods at once. When such a delegate is
+invoked, all referenced methods are executed in sequence.
+
+```csharp
+using System;
+
+delegate void Notify();
+
+class Program
+{
+    static void Main()
+    {
+        // Multicast delegate
+        Notify notifications = NotifyUser;
+        notifications += LogNotification;
+
+        // Invoke delegate
+        notifications();
+    }
+
+    static void NotifyUser()
+    {
+        Console.WriteLine("User has been notified.");
+    }
+
+    static void LogNotification()
+    {
+        Console.WriteLine("Notification logged.");
+    }
+}
+```
+
+<h4 style="background-color: #be185d; color: white;display: inline-block;">Using a delegate for a callback</h4>
+
+
+```csharp
+using System;
+
+delegate void OperationCompleted(string message);
+
+class Program
+{
+    static void Main()
+    {
+        // Passing the callback method to PerformOperation
+        PerformOperation(10, 5, "Addition", OnOperationCompleted);
+    }
+
+    static void PerformOperation(int a, int b, string operationType, OperationCompleted callback)
+    {
+        int result;
+        switch (operationType)
+        {
+            case "Addition":
+                result = a + b;
+                break;
+            case "Subtraction":
+                result = a - b;
+                break;
+            default:
+                callback("Unknown operation type");
+                return;
+        }
+
+        // Perform the callback once the operation is complete
+        callback($"Operation {operationType} completed. Result: {result}");
+    }
+
+    static void OnOperationCompleted(string message)
+    {
+        Console.WriteLine(message);
+    }
 ```
