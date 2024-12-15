@@ -13,6 +13,7 @@
         "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
         "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/Fandamentals/obj/",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
         ],
