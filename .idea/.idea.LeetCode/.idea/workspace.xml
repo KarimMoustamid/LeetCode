@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1874a452-273f-439d-95cb-4ff5966ef09a" name="Changes" comment="Add IDE and build tool generated files to the repository&#10;&#10;This commit includes various IDE configuration files, Rider-specific settings, and auto-generated build output files related to project compilation. These files enable proper environment setup and build management for the project.">
-      <change afterPath="$PROJECT_DIR$/Fandamentals/Lesson 16/ParseStrings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fandamentals/Lesson 32/TypeCasting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShapNetprepHub.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ShapNetprepHub.sln" afterDir="false" />
+    <list default="true" id="1874a452-273f-439d-95cb-4ff5966ef09a" name="Changes" comment="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fandamentals/Lesson 32/TypeCasting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fandamentals/Lesson 32/TypeCasting.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fandamentals/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Fandamentals/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +35,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -125,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734220376483</updated>
       <workItem from="1734220377591" duration="39000" />
-      <workItem from="1734277866361" duration="4774000" />
+      <workItem from="1734277866361" duration="5392000" />
     </task>
     <task id="LOCAL-00001" summary="Rename and restructure project files for consistency&#10;&#10;Renamed &quot;Top_Interview_Questions&quot; to &quot;LeetCode&quot; and updated related paths, namespaces, and references. Deleted unnecessary files and added new configuration files to align with the updated project structure. Cleaned up unused .idea files to improve project organization.">
       <option name="closed" value="true" />
@@ -143,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734283757265</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup.">
+      <option name="closed" value="true" />
+      <created>1734285331268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734285331268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +167,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Rename and restructure project files for consistency&#10;&#10;Renamed &quot;Top_Interview_Questions&quot; to &quot;LeetCode&quot; and updated related paths, namespaces, and references. Deleted unnecessary files and added new configuration files to align with the updated project structure. Cleaned up unused .idea files to improve project organization." />
     <MESSAGE value="Add IDE and build tool generated files to the repository&#10;&#10;This commit includes various IDE configuration files, Rider-specific settings, and auto-generated build output files related to project compilation. These files enable proper environment setup and build management for the project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add IDE and build tool generated files to the repository&#10;&#10;This commit includes various IDE configuration files, Rider-specific settings, and auto-generated build output files related to project compilation. These files enable proper environment setup and build management for the project." />
+    <MESSAGE value="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add project files and initial setup for .NET 8.0 project&#10;&#10;This commit includes the initial setup of the &quot;Fandamentals&quot; project, targeting .NET 8.0. It adds source files, auto-generated build outputs, IDE configurations, and necessary metadata files to enable proper build and development environment setup." />
   </component>
 </project>
