@@ -8,8 +8,4 @@
         <RootNamespace>Fundamentals</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Advance\" />
-    </ItemGroup>
-
 </Project>
