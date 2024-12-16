@@ -66,5 +66,39 @@ namespace Fundamentals.DataStructures
                 Console.WriteLine(item);
             }
         }
+
+
+        /// <summary>
+        /// Demonstrates casting types when using an ArrayList.
+        /// </summary>
+        public static void DemoArrayListCasting()
+        {
+            // Example: Casting types in ArrayList
+            var arrayList = new System.Collections.ArrayList();
+            arrayList.Add(42); // Adding an integer
+            arrayList.Add("Sample String"); // Adding a string
+            arrayList.Add(12.34); // Adding a double
+
+            Console.WriteLine("\nCasting Types in ArrayList:");
+            foreach (var item in arrayList)
+            {
+                if (item is int intValue)
+                {
+                    Console.WriteLine($"Integer value: {intValue}");
+                }
+                else if (item is string stringValue)
+                {
+                    Console.WriteLine($"String value: {stringValue}");
+                }
+                else if (item is double doubleValue)
+                {
+                    Console.WriteLine($"Double value: {doubleValue}");
+                }
+                else
+                {
+                    Console.WriteLine($"Other type: {item}");
+                }
+            }
+        }
     }
 }
