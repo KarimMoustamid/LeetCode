@@ -48,11 +48,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/InterviewPrep.csproj",
+      "projectUniqueName": "/Users/karimmoustamid/Desktop/Fundamentals/InterviewPrep/InterviewPrep.csproj",
       "projectName": "InterviewPrep",
-      "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/InterviewPrep.csproj",
+      "projectPath": "/Users/karimmoustamid/Desktop/Fundamentals/InterviewPrep/InterviewPrep.csproj",
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
-      "outputPath": "/Users/karimmoustamid/Desktop/LeetCode/InterviewPrep/obj/",
+      "outputPath": "/Users/karimmoustamid/Desktop/Fundamentals/InterviewPrep/obj/",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -69,11 +69,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/karimmoustamid/Desktop/LeetCode/Fundamentals/Fundamentals.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/Fundamentals/Fundamentals.csproj"
+            "/Users/karimmoustamid/Desktop/Fundamentals/Fundamentals/Fundamentals.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/Fundamentals/Fundamentals/Fundamentals.csproj"
             },
-            "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/LeetCode.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/LeetCode/LeetCode/LeetCode.csproj"
+            "/Users/karimmoustamid/Desktop/Fundamentals/LeetCode/LeetCode.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/Fundamentals/LeetCode/LeetCode.csproj"
             }
           }
         }
