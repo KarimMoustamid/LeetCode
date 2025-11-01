@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/LeetCode.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj",
+        "projectName": "LeetCode.Common",
+        "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj",
+        "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
+        "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj",
+        "projectName": "LeetCode.Easy",
+        "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj",
+        "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
+        "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj",
+        "projectName": "LeetCode.Hard",
+        "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj",
+        "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
+        "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj",
+        "projectName": "LeetCode.Medium",
+        "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj",
+        "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
+        "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/LeetCode.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/LeetCode.Tests.csproj",
+        "projectName": "LeetCode.Tests",
+        "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/LeetCode.Tests.csproj",
+        "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
+        "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj"
+              },
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj"
+              },
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj"
+              },
+              "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj": {
+                "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

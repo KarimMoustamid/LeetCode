@@ -1,0 +1,11 @@
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/bin/Debug/net9.0/LeetCode.Common.deps.json
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/bin/Debug/net9.0/LeetCode.Common.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/bin/Debug/net9.0/LeetCode.Common.pdb
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.AssemblyInfoInputs.cache
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.AssemblyInfo.cs
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.csproj.CoreCompileInputs.cache
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/refint/LeetCode.Common.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.pdb
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/ref/LeetCode.Common.dll
