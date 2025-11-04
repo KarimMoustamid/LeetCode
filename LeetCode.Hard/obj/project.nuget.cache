@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SFf5SMzbvuM=",
+  "dgSpecHash": "DbA0YuwxDkM=",
   "success": true,
   "projectFilePath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/karimmoustamid/.nuget/packages/microsoft.netcore.app.ref/9.0.10/microsoft.netcore.app.ref.9.0.10.nupkg.sha512",
+    "/Users/karimmoustamid/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.10/microsoft.aspnetcore.app.ref.9.0.10.nupkg.sha512",
+    "/Users/karimmoustamid/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.10/microsoft.netcore.app.host.osx-arm64.9.0.10.nupkg.sha512"
+  ],
   "logs": []
 }
