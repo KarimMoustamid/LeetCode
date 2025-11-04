@@ -9,3 +9,4 @@
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/refint/LeetCode.Common.dll
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.pdb
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/ref/LeetCode.Common.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/Debug/net9.0/LeetCode.Common.sourcelink.json

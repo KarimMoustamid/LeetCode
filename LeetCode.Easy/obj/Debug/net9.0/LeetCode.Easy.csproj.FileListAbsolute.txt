@@ -16,3 +16,4 @@
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.pdb
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/ref/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.sourcelink.json

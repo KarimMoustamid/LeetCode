@@ -16,3 +16,4 @@
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/obj/Debug/net9.0/LeetCode.Medium.pdb
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/obj/Debug/net9.0/LeetCode.Medium.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/obj/Debug/net9.0/ref/LeetCode.Medium.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/obj/Debug/net9.0/LeetCode.Medium.sourcelink.json

@@ -114,3 +114,4 @@
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/obj/Debug/net9.0/LeetCode.Tests.pdb
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/obj/Debug/net9.0/LeetCode.Tests.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/obj/Debug/net9.0/ref/LeetCode.Tests.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/obj/Debug/net9.0/LeetCode.Tests.sourcelink.json

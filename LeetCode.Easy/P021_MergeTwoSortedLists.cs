@@ -13,6 +13,7 @@ public class MergeTwoSortedLists : SolutionBase
     public override int ProblemNumber => 21;
     public override string ProblemTitle => "Merge Two Sorted Lists";
     public override string Difficulty => "Easy";
+    public override string ProblemUrl => "https://leetcode.com/problems/merge-two-sorted-lists/";
 
     /// <summary>
     /// Iterative approach - O(m + n) time, O(1) space

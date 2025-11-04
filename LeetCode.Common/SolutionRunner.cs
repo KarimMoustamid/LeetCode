@@ -9,21 +9,21 @@ public abstract class SolutionBase
     /// The problem number on LeetCode.
     /// </summary>
     public abstract int ProblemNumber { get; }
-    
+
     /// <summary>
     /// The problem title.
     /// </summary>
     public abstract string ProblemTitle { get; }
-    
+
     /// <summary>
     /// The problem difficulty.
     /// </summary>
     public abstract string Difficulty { get; }
-    
+
     /// <summary>
-    /// URL to the problem on LeetCode.
+    /// The URL to the specific problem on LeetCode (can be interview card, explore, or standard problem URL).
     /// </summary>
-    public string ProblemUrl => $"https://leetcode.com/problems/{ProblemTitle.ToLower().Replace(' ', '-')}/";
+    public abstract string ProblemUrl { get; }
 }
 
 /// <summary>
@@ -48,9 +48,32 @@ public static class SolutionRunner
     /// </summary>
     public static void PrintSolutionInfo(SolutionBase solution)
     {
-        Console.WriteLine($"Problem {solution.ProblemNumber}: {solution.ProblemTitle}");
-        Console.WriteLine($"Difficulty: {solution.Difficulty}");
-        Console.WriteLine($"URL: {solution.ProblemUrl}");
-        Console.WriteLine(new string('-', 50));
+        ConsoleColor previousColor = Console.ForegroundColor;
+
+        try
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Problem {solution.ProblemNumber}: {solution.ProblemTitle}");
+            Console.WriteLine($"Difficulty: {solution.Difficulty}");
+            Console.WriteLine($"URL: {solution.ProblemUrl}");
+            Console.WriteLine(new string('-', 50));
+        }
+        finally
+        {
+           Console.ForegroundColor = previousColor;
+        }
+
+        Console.WriteLine();
+    }
+
+    public static void PrintColoredLines(ConsoleColor color, params string[] lines)
+    {
+        var previousColor = Console.ForegroundColor;
+        Console.ForegroundColor = color;
+        foreach (var line in lines)
+        {
+            Console.WriteLine(line);
+        }
+        Console.ForegroundColor = previousColor;
     }
 }

@@ -16,3 +16,4 @@
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/obj/Debug/net9.0/LeetCode.Hard.pdb
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/obj/Debug/net9.0/LeetCode.Hard.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/obj/Debug/net9.0/ref/LeetCode.Hard.dll
+/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/obj/Debug/net9.0/LeetCode.Hard.sourcelink.json

@@ -12,6 +12,7 @@ public class TwoSum : SolutionBase
     public override int ProblemNumber => 1;
     public override string ProblemTitle => "Two Sum";
     public override string Difficulty => "Easy";
+    public override string ProblemUrl => "https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/";
 
     /// <summary>
     /// Hash map approach - O(n) time, O(n) space
