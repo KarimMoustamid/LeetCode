@@ -20,10 +20,13 @@ class Program
         var solution = new RemoveDuplicatesFromSortedArray();
         SolutionRunner.PrintSolutionInfo(solution);
 
-        int[] nums = { 1, 1, 1, 2, 2, 3, 3, 3 };
-        int[] expectedNums = { 1, 2, 3 };
-
+        int[] nums = [3, 1, 2, 1, 3, 2, 1, 3];
+        int[] expectedNums = [1, 2, 3];
         Console.WriteLine($"Input: nums = [{string.Join(", ",nums)}] - expected = [{string.Join(", ", expectedNums)}]");
+
+
+        solution.RemoveDuplicates(nums);
+
     }
 
     static void RunTwoSumExample()
