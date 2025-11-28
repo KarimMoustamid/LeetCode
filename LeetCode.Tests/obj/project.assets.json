@@ -5596,11 +5596,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/LeetCode.Tests.csproj",
+      "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Tests/LeetCode.Tests.csproj",
       "projectName": "LeetCode.Tests",
-      "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/LeetCode.Tests.csproj",
+      "projectPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Tests/LeetCode.Tests.csproj",
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
-      "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Tests/obj/",
+      "outputPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
@@ -5615,17 +5615,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj"
+            "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Common/LeetCode.Common.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Common/LeetCode.Common.csproj"
             },
-            "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/LeetCode.Easy.csproj"
+            "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/LeetCode.Easy.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/LeetCode.Easy.csproj"
             },
-            "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Hard/LeetCode.Hard.csproj"
+            "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Hard/LeetCode.Hard.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Hard/LeetCode.Hard.csproj"
             },
-            "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj": {
-              "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Medium/LeetCode.Medium.csproj"
+            "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Medium/LeetCode.Medium.csproj": {
+              "projectPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Medium/LeetCode.Medium.csproj"
             }
           }
         }

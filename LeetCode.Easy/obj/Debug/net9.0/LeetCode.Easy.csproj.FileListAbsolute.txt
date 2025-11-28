@@ -17,3 +17,41 @@
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.genruntimeconfig.cache
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/ref/LeetCode.Easy.dll
 /Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.sourcelink.json
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.deps.json
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.runtimeconfig.json
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.pdb
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Common.dll
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Common.pdb
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.csproj.AssemblyReference.cache
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.AssemblyInfoInputs.cache
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.AssemblyInfo.cs
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.csproj.CoreCompileInputs.cache
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.sourcelink.json
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.792DA9DD.Up2Date
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/refint/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.pdb
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.genruntimeconfig.cache
+/Users/karimmoustamid/Desktop/Code/00-Interview/LeetCode.Easy/obj/Debug/net9.0/ref/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.deps.json
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.runtimeconfig.json
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Easy.pdb
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Common.dll
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/bin/Debug/net9.0/LeetCode.Common.pdb
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.csproj.AssemblyReference.cache
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.AssemblyInfoInputs.cache
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.AssemblyInfo.cs
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.csproj.CoreCompileInputs.cache
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.sourcelink.json
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.792DA9DD.Up2Date
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/refint/LeetCode.Easy.dll
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.pdb
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/LeetCode.Easy.genruntimeconfig.cache
+/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Easy/obj/Debug/net9.0/ref/LeetCode.Easy.dll

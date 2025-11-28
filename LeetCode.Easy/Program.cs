@@ -11,41 +11,40 @@ class Program
             "====================",
             "");
 
-        RunRemoveDuplicatesFromSortedArraySolution();
-
+        RunBest_Time_to_Buy_and_Sell_Stock_II_Solution();
     }
 
+    #region Arrays
     static void RunRemoveDuplicatesFromSortedArraySolution()
     {
         var solution = new RemoveDuplicatesFromSortedArray();
         SolutionRunner.PrintSolutionInfo(solution);
 
-        int[] nums = [3, 1, 2, 1, 3, 2, 1, 3];
-        int[] expectedNums = [1, 2, 3];
+        int[] nums = new[] { 1, 1, 1, 2, 2, 3, 3, 3 };
+        int[] expectedNums = new[] { 1, 2, 3 };
         Console.WriteLine($"Input: nums = [{string.Join(", ",nums)}] - expected = [{string.Join(", ", expectedNums)}]");
+        Console.WriteLine();
 
 
-        solution.RemoveDuplicates(nums);
+        int numberOfUniqueValues = solution.RemoveDuplicates(nums);
 
+        SolutionRunner.PrintColoredLines(ConsoleColor.DarkGreen,$"Number of Unique values = {numberOfUniqueValues}");
     }
 
-    static void RunTwoSumExample()
+    static void RunBest_Time_to_Buy_and_Sell_Stock_II_Solution()
     {
-        var solution = new TwoSum();
+        var solution = new P002_Best_Time_to_Buy_and_Sell_Stock_II();
         SolutionRunner.PrintSolutionInfo(solution);
 
-        int[] nums = { 2, 7, 11, 15 };
-        int target = 9;
-
-        Console.WriteLine($"Input: nums = [{string.Join(", ", nums)}], target = {target}");
-
-        var result = SolutionRunner.MeasureExecutionTime(
-            () => solution.TwoSumHashMap(nums, target),
-            out var executionTime);
-
-        Console.WriteLine($"Output: [{string.Join(", ", result)}]");
-        Console.WriteLine($"Execution Time: {executionTime.TotalMilliseconds}ms");
+        int[] prices = new[] { 7, 1, 5, 3, 6, 4 };
+        int expected = 7;
+        Console.WriteLine($"Input: prices = [{string.Join(", ",prices)}] - expected = {expected}");
         Console.WriteLine();
+
+
+        solution.MaxProfit(prices);
     }
+
+    #endregion
 
 }

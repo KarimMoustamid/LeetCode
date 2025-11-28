@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj",
+      "projectUniqueName": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Common/LeetCode.Common.csproj",
       "projectName": "LeetCode.Common",
-      "projectPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/LeetCode.Common.csproj",
+      "projectPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Common/LeetCode.Common.csproj",
       "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
-      "outputPath": "/Users/karimmoustamid/Desktop/Code/Interview/LeetCode.Common/obj/",
+      "outputPath": "/Users/karimmoustamid/Desktop/Code/C# Interview Prep/LeetCode.Common/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"

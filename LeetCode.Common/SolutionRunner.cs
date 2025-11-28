@@ -52,7 +52,7 @@ public static class SolutionRunner
 
         try
         {
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine($"Problem {solution.ProblemNumber}: {solution.ProblemTitle}");
             Console.WriteLine($"Difficulty: {solution.Difficulty}");
             Console.WriteLine($"URL: {solution.ProblemUrl}");
