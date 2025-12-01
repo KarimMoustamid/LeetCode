@@ -4,13 +4,13 @@ namespace CodingExercises.Common
     {
         public abstract class RunnerBase
             {
-                public abstract int ProblemNumber { get; set; }
-                public abstract string ProblemTitle { get; set; }
-                public abstract string Difficulty { get; set; }
+                public abstract int ProblemNumber { get; }
+                public abstract string ProblemTitle { get; }
+                public abstract string Difficulty { get; }
             }
 
         public static class Runner
-            {
+        {
                 /// <summary>
                 /// Measures execution time of a function.
                 /// </summary>
