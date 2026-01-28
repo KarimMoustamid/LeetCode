@@ -3,11 +3,11 @@ namespace CodingExercises.Common
     public class SolutionRunner
     {
         public abstract class RunnerBase
-            {
-                public abstract int ProblemNumber { get; }
-                public abstract string ProblemTitle { get; }
-                public abstract string Difficulty { get; }
-            }
+        {
+            public abstract int ProblemNumber { get; }
+            public abstract string ProblemTitle { get; }
+            public abstract string Difficulty { get; }
+        }
 
         public static class Runner
         {

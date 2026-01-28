@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "CodingExercises.Eazy/1.0.0": {
+        "dependencies": {
+          "CodingExercises.Common": "1.0.0"
+        },
+        "runtime": {
+          "CodingExercises.Eazy.dll": {}
+        }
+      },
+      "CodingExercises.Common/1.0.0": {
+        "runtime": {
+          "CodingExercises.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CodingExercises.Eazy/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CodingExercises.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
