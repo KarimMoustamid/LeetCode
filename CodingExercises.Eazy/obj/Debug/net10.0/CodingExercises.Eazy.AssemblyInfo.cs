@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodingExercises.Eazy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c56285626911c89e5a3309d43b052bd0e35e9bd7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae5c0fc22220d6dab316e7411f3e8520d3b25efb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodingExercises.Eazy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodingExercises.Eazy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

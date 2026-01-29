@@ -5,14 +5,10 @@ SolutionRunner.Runner.PrintColoredLines(ConsoleColor.DarkRed,
     "====================",
     "");
 
-   Run_ContainsNegativeChecker_Solution();
-    //Run_SplitFullNameChecker_Solution();
+   //Run_ContainsNegativeChecker_Solution();
+   Run_SplitFullNameChecker_Solution();
 
-    static void Run_SplitFullNameChecker_Solution()
-    {
-      var solution = new SplitFullNameChecker();
-      SolutionRunner.Runner.PrintSolutionInfo(solution);
-    }
+
 
     static void Run_ContainsNegativeChecker_Solution()
     {
@@ -36,4 +32,13 @@ SolutionRunner.Runner.PrintColoredLines(ConsoleColor.DarkRed,
         }
 
     }
+
+    static void Run_SplitFullNameChecker_Solution()
+    {
+      var solution = new SplitFullNameChecker();
+
+      SolutionRunner.Runner.PrintSolutionInfo(solution);
+    }
+
+
 

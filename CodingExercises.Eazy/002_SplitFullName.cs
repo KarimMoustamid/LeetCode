@@ -7,20 +7,19 @@ namespace CodingExercises.Eazy
         public override string ProblemTitle => "Split Full Name";
         public override string Difficulty => "Easy";
 
-        public static (string? FirstName , string? LastName) SplitFullName(string fullName)
+        // Splits a full name ("First Last") into first and last name parts.
+        public static (string FirstName , string LastName) SplitFullName(string fullName)
         {
-            //your code goes here
-            foreach (var character in fullName)
-            {
-                var firstName = "";
-                var lastName = "";
+            // Validate input to avoid invalid slicing.
+            if(string.IsNullOrWhiteSpace(fullName)) throw new ArgumentException();
 
-                if (char.IsWhiteSpace(character))
-                {
-
-                }
-            }
-            return (null, null);
+            // Find the single space separating first and last names.
+            var spaceIndex = fullName.IndexOf(' ');
+            // Slice the string around the space without allocating an array.
+            var firstName = fullName[..spaceIndex];
+            var lastName = fullName[(spaceIndex + 1)..];
+            // Return a named tuple for clarity at call sites.
+            return (FirstName: firstName, LastName: lastName);
         }
     }
 }
